@@ -4,9 +4,9 @@ import (
 	"log"
 	"sort"
 
-	"github.com/tiagoapimenta/nginx-ldap-auth/data"
-	"github.com/tiagoapimenta/nginx-ldap-auth/group"
-	"github.com/tiagoapimenta/nginx-ldap-auth/user"
+	"github.com/gered/nginx-ldap-auth/data"
+	"github.com/gered/nginx-ldap-auth/group"
+	"github.com/gered/nginx-ldap-auth/user"
 )
 
 type Service struct {

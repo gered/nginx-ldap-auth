@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/tiagoapimenta/nginx-ldap-auth/data"
-	"github.com/tiagoapimenta/nginx-ldap-auth/group"
-	"github.com/tiagoapimenta/nginx-ldap-auth/ldap"
-	"github.com/tiagoapimenta/nginx-ldap-auth/rule"
-	"github.com/tiagoapimenta/nginx-ldap-auth/user"
+	"github.com/gered/nginx-ldap-auth/data"
+	"github.com/gered/nginx-ldap-auth/group"
+	"github.com/gered/nginx-ldap-auth/ldap"
+	"github.com/gered/nginx-ldap-auth/rule"
+	"github.com/gered/nginx-ldap-auth/user"
 )
 
 func main() {

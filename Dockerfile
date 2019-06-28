@@ -1,10 +1,10 @@
 FROM golang:alpine
 
-COPY . /go/src/github.com/tiagoapimenta/nginx-ldap-auth
+COPY . /go/src/github.com/gered/nginx-ldap-auth
 
 ENV CGO_ENABLED=0
 
-RUN cd /go/src/github.com/tiagoapimenta/nginx-ldap-auth && \
+RUN cd /go/src/github.com/gered/nginx-ldap-auth && \
 	apk add --no-cache git && \
 	go get -u gopkg.in/yaml.v2 && \
 	go get -u gopkg.in/ldap.v2 && \

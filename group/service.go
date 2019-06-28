@@ -3,7 +3,7 @@ package group
 import (
 	"strings"
 
-	"github.com/tiagoapimenta/nginx-ldap-auth/ldap"
+	"github.com/gered/nginx-ldap-auth/ldap"
 
 	gldap "gopkg.in/ldap.v2"
 )

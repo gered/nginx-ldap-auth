@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/tiagoapimenta/nginx-ldap-auth/rule"
+	"github.com/gered/nginx-ldap-auth/rule"
 )
 
 func startServer(service *rule.Service, server, path, message string) error {
